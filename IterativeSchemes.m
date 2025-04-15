@@ -1,6 +1,3 @@
-﻿Question 1
-
-
 format long
 f=@(t,y) exp(-y)*sin(t+(2*pi*y));
 %the ODE we will be evaluating
@@ -162,21 +159,6 @@ lgd=legend;
 lgd.Title.String = 'n=4096 steps';
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-Question 2
-
-
 format long
 f=@(t,y) exp(-y)*sin(t+(2*pi*y));
 %the ODE we will be evaluating
@@ -274,57 +256,6 @@ figure(1)
 legend('RK2 error','My own RK2 error','EM error','RK4 error')
 lgd=legend;
 lgd.Title.String = 'Log of Errors';
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Question 3
 
 
 format long
